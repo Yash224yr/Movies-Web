@@ -1,6 +1,6 @@
 import React, { Profiler } from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './To-Do-Redux/App';
+// import App from './To-Do-Redux/App';
 // import Quiz from './Quiz/Quiz';
 // import Home from './MobCompare/Home';
 // import Routing from './ContextApi/Routing';

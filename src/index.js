@@ -1,10 +1,10 @@
 import React, { Profiler } from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './To-Do-Redux/App';
+import App from './To-Do-Redux/App';
 // import Quiz from './Quiz/Quiz';
 // import Home from './MobCompare/Home';
 // import Routing from './ContextApi/Routing';
-import Movies from './MoviesWeb/Movies';
+// import Movies from './MoviesWeb/Movies';
 // import Routing from './Routing/routing';
 // import Cart from './Cart/cart';
 // import Axios from './Axios/Axios';
@@ -13,8 +13,8 @@ import Movies from './MoviesWeb/Movies';
 // import Tabs from "./button/tabs"
 // import App from './Redux-Counter/App';
 // import Store from './Redux-Counter/Store';
-// import Store from './To-Do-Redux/Store'
-// import { Provider } from 'react-redux';
+import Store from './To-Do-Redux/Store'
+import { Provider } from 'react-redux';
 
 
 
@@ -30,14 +30,14 @@ root.render(
    // <Tabs/>
    // <Cart/>
    // <Routing/>
-   <Movies/>
+   // <Movies/>
    // <Routing/>
    // <Home/>
    // <Quiz/>
-   // <Provider store={Store}>
-   //    {/* <App /> */}
-   //    <App/>
-   // </Provider>
+   <Provider store={Store}>
+      {/* <App /> */}
+      <App/>
+   </Provider>
   
 
 );

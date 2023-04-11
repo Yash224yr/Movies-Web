@@ -20,7 +20,7 @@ function Content() {
                 let response = await axios.get(`
                         https://api.themoviedb.org/3/search/movie?api_key=536b68a54e32bbda4fe55a17bc514fa3&language=en-US&query=${value}&page=1&include_adult=false`);
                         if(response.data.results.length === 0 ){
-                            alert(" Oops No Movie Found")
+                            alert(" Oops No Movie Found")`q`
                         }
                         else{
                                 setdata(response.data.results);
@@ -30,6 +30,7 @@ function Content() {
             getdata();
         }
     }
+
 
 
     return (
